@@ -109,7 +109,7 @@ const Main = () => {
             <p className="font-[500] sm:text-[40px] text-[20px]  sm:leading-[64px] mt-20 mb-10 text-center">Follow Us @Neccara</p>
 
             <div className="flex sm:flex-row flex-col gap-4 my-4 justify-between items-start">
-                <div className="sm:w-1/4 w-full min-h-[308px] border flex flex-col py-6 justify-between items-center bg-[#E4E9FB] px-8">
+                <div className="sm:w-1/4 w-full h-[308px] border flex flex-col py-6 justify-between items-center bg-[#E4E9FB] px-8">
                     <p className="font-[500] text-[24px] leading-[33.6px] text-center">Follow Us @Neccara</p>
                     <img src={BigInsta} alt="instagram" className="w-[67px] h-[67px]" />
 
@@ -120,13 +120,13 @@ const Main = () => {
                     </button>
                 </div>
 
-                <div className="sm:w-1/4 w-full min-h-[308px]">
+                <div className="sm:w-1/4 w-full h-[308px]">
                     <img src={Image1} className="h-full" />
                 </div>
-                <div className="sm:w-1/4 w-full min-h-[308px]">
+                <div className="sm:w-1/4 w-full h-[308px]">
                     <img src={Image2} className="h-full" />
                 </div>
-                <div className="sm:w-1/4 w-full min-h-[308px]">
+                <div className="sm:w-1/4 w-full h-[308px]">
                     <img src={Image3} className="h-full" />
                 </div>
 
@@ -139,7 +139,7 @@ const Main = () => {
 
                 <div className="">
                     <div className="flex sm:flex-row flex-col justify-between gap-8">
-                        <div className="sm:w-1/4 h-fit sm:h-[296px] p-6 border rounded border-[0.5px] border-[#001B79]">
+                        <div className="sm:w-1/4 h-fit sm:min-h-[296px] p-6 border rounded border-[0.5px] border-[#001B79]">
                             <p className="font-[300] leading-[22.4px] text-[#4E4E4E]">
                                 "Neccara's products have transformed my skincare routine! I've
                                 struggled with dull skin for years, but after using their serums
@@ -156,7 +156,7 @@ const Main = () => {
                             </div>
                         </div>
 
-                        <div className="sm:w-1/4 h-fit sm:h-[296px] p-6 border rounded border-[0.5px] border-[#001B79]">
+                        <div className="sm:w-1/4 h-fit sm:min-h-[296px] p-6 border rounded border-[0.5px] border-[#001B79]">
                             <p className="font-[300] leading-[22.4px] text-[#4E4E4E]">
                                 "I'm amazed by the results I've seen with Neccara. Their commitment to natural ingredients truly shines through in the quality of their products.
                                 My skin feels nourished, hydrated, and looks noticeably healthier. Definitely a game-changer for me!"
@@ -171,7 +171,7 @@ const Main = () => {
                             </div>
                         </div>
 
-                        <div className="sm:w-1/4 h-fit sm:h-[296px] p-6 border rounded border-[0.5px] border-[#001B79]">
+                        <div className="sm:w-1/4 h-fit sm:min-h-[296px] p-6 border rounded border-[0.5px] border-[#001B79]">
                             <p className="font-[300] leading-[22.4px] text-[#4E4E4E]">
                                 "I've tried countless skincare brands, but Neccara is on a whole other level. The texture, the scent, the results – everything about their products screams luxury.
                                 My skin feels pampered and rejuvenated, and I've finally found my holy grail skincare line. Thank you, Neccara!"
@@ -186,7 +186,7 @@ const Main = () => {
                             </div>
                         </div>
 
-                        <div className="sm:w-1/4 h-fit sm:h-[296px] p-6 border rounded border-[0.5px] border-[#001B79]">
+                        <div className="sm:w-1/4 h-fit sm:min-h-[296px] p-6 border rounded border-[0.5px] border-[#001B79]">
                             <p className="font-[300] leading-[22.4px] text-[#4E4E4E]">
                                 "I've tried countless skincare brands, but Neccara is on a whole other level. The texture, the scent, the results – everything about their products screams luxury.
                                 My skin feels pampered and rejuvenated, and I've finally found my holy grail skincare line. Thank you, Neccara!"
